@@ -1,0 +1,16 @@
+{
+  "assessment": "Authentication Assessment",
+  "generated_at_utc": "2026-10-27T04:28:31.390249+00:00",
+  "evidence_count": 3,
+  "outcomes": {
+    "success": 1,
+    "denied": 1,
+    "failure": 1
+  },
+  "trace_files": [
+    "traces/success.json",
+    "traces/access_denied.json",
+    "traces/provider_failure.json"
+  ],
+  "redaction": "Bearer tokens and resource identifiers are not included in raw form."
+}

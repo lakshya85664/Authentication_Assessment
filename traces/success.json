@@ -1,0 +1,33 @@
+{
+  "event": "success",
+  "timestamp_utc": "2026-10-27T04:28:31.388420+00:00",
+  "tool": "service_status_lookup",
+  "principal": "evidence-service_client",
+  "credential": "[REDACTED]",
+  "resource_id": "[REDACTED]",
+  "outcome": "success",
+  "response": {
+    "outcome": "success",
+    "authenticated": true,
+    "status": "ok",
+    "attempts": [
+      {
+        "attempt": 1,
+        "outcome": "success"
+      }
+    ],
+    "cache_hit": false
+  },
+  "error_type": null,
+  "service_call_count": 1,
+  "metrics": {
+    "started": 1,
+    "succeeded": 1,
+    "failed": 0,
+    "retries": 0,
+    "rate_limited": 0,
+    "cache_hits": 0,
+    "timed_out": 0
+  },
+  "security_note": "Raw bearer token and sensitive resource identifiers are not recorded."
+}

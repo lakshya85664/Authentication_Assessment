@@ -1,0 +1,35 @@
+{
+  "event": "provider_failure",
+  "timestamp_utc": "2026-10-27T04:28:31.389789+00:00",
+  "tool": "service_status_lookup",
+  "principal": "evidence-service_client",
+  "credential": "[REDACTED]",
+  "resource_id": "[REDACTED]",
+  "outcome": "failure",
+  "response": {
+    "outcome": "failure",
+    "authenticated": true,
+    "status": "failed",
+    "attempts": [
+      {
+        "attempt": 1,
+        "outcome": "failure",
+        "error_type": "RuntimeError",
+        "transient": false
+      }
+    ],
+    "cache_hit": null
+  },
+  "error_type": null,
+  "service_call_count": 1,
+  "metrics": {
+    "started": 1,
+    "succeeded": 0,
+    "failed": 1,
+    "retries": 0,
+    "rate_limited": 0,
+    "cache_hits": 0,
+    "timed_out": 0
+  },
+  "security_note": "Raw bearer token and sensitive resource identifiers are not recorded."
+}

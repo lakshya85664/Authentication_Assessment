@@ -1,0 +1,20 @@
+{
+  "event": "access_denied",
+  "timestamp_utc": "2026-10-27T04:28:31.389064+00:00",
+  "tool": "service_status_lookup",
+  "principal": "evidence-unapproved_role",
+  "credential": "[REDACTED]",
+  "resource_id": "[REDACTED]",
+  "outcome": "denied",
+  "response": {
+    "outcome": "denied",
+    "authenticated": false,
+    "status": "denied",
+    "attempts": null,
+    "cache_hit": null
+  },
+  "error_type": null,
+  "service_call_count": 0,
+  "metrics": {},
+  "security_note": "Raw bearer token and sensitive resource identifiers are not recorded."
+}
